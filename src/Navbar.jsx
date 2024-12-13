@@ -41,7 +41,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed top-0 left-0 h-full bg-gray-800 text-white abc transform ${toggle ? "translate-x-0" : "-translate-x-full"
+        className={`fixed top-0 left-0 h-full bg-gradient-to-r from-blue-500 to-blue-700 text-white abc transform ${toggle ? "translate-x-0" : "-translate-x-full"
           } transition-transform duration-300 ease-in-out w-64 md:hidden`}
       >
         <div className="p-4">
