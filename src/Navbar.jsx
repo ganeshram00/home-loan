@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" sticky top-0  border-gray-200 bg-gradient-to-r from-blue-500 to-blue-700 dark:bg-gray-800 dark:border-gray-700  min-h-[55px] abc">
+    <nav className=" sticky top-0  border-gray-200 bg-gradient-to-r from-blue-500 to-blue-700 dark:bg-gray-800 dark:border-gray-700  min-h-[55px] z-[500000]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to={'/'} className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold text-white whitespace-nowrap dark:text-white">
